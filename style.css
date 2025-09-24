@@ -1,0 +1,76 @@
+/* Estilo geral da página */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container do formulário */
+  .container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Título */
+  .container h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Formulário */
+  .form-tabuada {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Rótulo */
+  .form-tabuada label {
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+  }
+  
+  /* Campo de entrada */
+  .form-tabuada input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  .form-tabuada input[type="number"]:focus {
+    outline: none;
+    border-color: #4facfe;
+    box-shadow: 0 0 5px #4facfe;
+  }
+  
+  /* Botão */
+  .form-tabuada button {
+    padding: 12px;
+    background: #4facfe;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .form-tabuada button:hover {
+    background: #00c3fe;
+  }
+  
+  /* Resultado da tabuada */
+  #resultado {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #333;
+  }

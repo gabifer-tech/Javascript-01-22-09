@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturas de repetição - While</title>
+</head>
+
+<body>
+    <form action="">
+        <button onclick="contar()">Contar</button>
+    </form>
+    <script>
+        function contar() {
+            var count = 0;
+            // enquanto a condição é no início
+            while (count <= 100) {
+                document.writeln (count + "<br>");
+                count= count + 2; //fará a conta de 2 em 2
+            }
+            document.writeln ("Fim da contagem!");
+        }
+    </script>
+</body>
+
+</html>
